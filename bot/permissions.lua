@@ -12,6 +12,7 @@ local sudos = {
 	"contact",
 	"newlink",
 	"link",
+	"setflood",
 }
 local function get_tag(plugin_tag)
 	for v,tag in pairs(sudos) do

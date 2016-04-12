@@ -87,9 +87,12 @@ function run(msg, matches)
 ●#sticker (text)
 تبدیل (text) به استیکر
 
+💠#cwr 
+for version bot.
 .......................................
 📡
-- @BeatBot_Team
+- @Etichal_Team
+Creator : @Maid_mind
 .......................................]]
     if matches[1] == 'help' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      

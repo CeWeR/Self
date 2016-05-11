@@ -89,20 +89,26 @@ function run(msg, matches)
 
 💠#cwr 
 for version bot.
+
+🔹#silent 
+🔹#unsilent
+🔹#silent [ ID users ]
+🔹#unsilent [ ID users ]
+for mute users.
 .......................................
 📡
-- @Etichal_Team
+- @TAk_CeWeR_TAk
 Creator : @Maid_mind
 .......................................]]
     if matches[1] == 'help' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      
-   return '💥 Help was sent in your pv '
+   return '💥 Help send Pv.'
     end
 end 
 
 return {
   patterns = {
-    "^#(help)$"
+    "^[#/!](help)$"
   },
   run = run
 }

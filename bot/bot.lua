@@ -238,7 +238,17 @@ function create_config( )
      "groupmanager",
      "id",
      "tools",
-     "weather",
+     "weather"
+     "anti_spam"
+     "echoo"
+     "badword"
+     "fck"
+     "face"
+     "info"
+     "ingp"
+     "joy"
+     "spam"
+     "xD",
      },
     sudo_users = {153545455,0},
     admin_users = {},

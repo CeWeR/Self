@@ -19,4 +19,5 @@ cd SelfBotCwR
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
 
+#CeWeR Bot.
 

@@ -239,7 +239,6 @@ function create_config( )
      "id",
      "tools",
      "weather"
-     "anti_spam"
      "echoo"
      "badword"
      "fck"

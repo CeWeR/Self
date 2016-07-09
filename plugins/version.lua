@@ -1,13 +1,13 @@
 do
 
 function run(msg, matches)
-    return "Self-Bot v4 \n by Etichal Team :) <3 \n @Etichal_Team"
+    return "CeWeR Bot \n\n Creator : @MohamWmad \n Admin CeWeR : @MohamWmad \n\n Team : \n #MohamWmad \n #Mehdi.CeWeR \n #MaSiH.CeWeR \n #SaSaN.CeWeR \n #ZaKHaR.CeWeR \n\n `Channel Team` : @Tak_CeWeR_Tak"
 end 
 return {
   patterns = {
-    "^#cwr$",
-    "^#bot$",
-    "^#cwrbot$"
+    "^[#!/]([Cc]ewer)$",
+    "^[#!/]([Bb]ot)$",
+    "^[#!/]([Cc]ewerbot)$"
   },
   run = run
 }
